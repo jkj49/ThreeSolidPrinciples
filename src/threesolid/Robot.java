@@ -7,7 +7,7 @@ package threesolid;
  *
  * Damen
  */
-class Robot implements IWorkable {
+class Robot implements IWorkable, IMaintainable {
     public void work() {
         // does work
     }
