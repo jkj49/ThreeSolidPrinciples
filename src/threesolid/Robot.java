@@ -6,9 +6,24 @@ package threesolid;
  * I - A robot does not need to eat, so it only implements IWorkeable.
  *
  * Damen
+ *
+ * Ky_Le added implemanation "IMaintainable" class interface and its methods.
  */
+
 class Robot implements IWorkable, IMaintainable {
     public void work() {
         // does work
+    }
+
+    public void processMaintainWeekly(){
+      // performing robot maintaining weekly
+    }
+
+    public void processMaintainMonthly(){
+      // performing robot maintaining Monthly
+    }
+
+    public void processMaintainYearly(){
+      // performing robot maintaining yearly
     }
 }
