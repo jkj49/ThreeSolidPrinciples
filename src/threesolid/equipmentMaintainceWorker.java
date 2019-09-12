@@ -1,7 +1,7 @@
 package threesolid;
 /*
 *
-* S - no
+* S - only responsible for whatever applied for an EQM Worker.
 * O - This class can be extended by allowing the implementation of other relevant interfaces.
 * I - this class implements IWorkable amd IMaintainable with different functionalities.
 *
