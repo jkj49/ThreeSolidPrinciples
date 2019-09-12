@@ -13,6 +13,7 @@ public class ThreeSolidMain
    public static Manager tsManager = new Manager();
    public static HumanWorker tsHuman = new HumanWorker();
    public static Robot tsRobot = new Robot();
+   public static SuperWorker tsSuper = new SuperWorker();
 
 
    // The entry main() method
@@ -27,7 +28,11 @@ public class ThreeSolidMain
       {
          main_except.printStackTrace();
       }
-
+      System.out.println(" Testing the SuperWorker class");
+      tsSuper.eat();
+      tsSuper.work();
+      System.out.println();
+      
       System.out.println(" Testing for HumanWorker class");
       tsHuman.eat();
       tsHuman.work();
@@ -43,6 +48,8 @@ public class ThreeSolidMain
       System.out.println("Testing Manager class");
       System.out.println("Manage Human...");
       tsManager.setWorker(tsHuman);
+      System.out.println("Manage SuperWorker...");
+      tsManager.setWorker(tsSuper);
       tsManager.manage();
       System.out.println("Manage Robot...");
       tsManager.setWorker(tsRobot);
