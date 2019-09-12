@@ -20,7 +20,7 @@ package threesolid;
 */
 
 class Manager {
-	IWorker worker;
+	IWorkable worker;
 
 	public Manager() {
 

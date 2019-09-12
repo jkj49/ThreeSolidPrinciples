@@ -11,6 +11,9 @@ public class ThreeSolidMain
 {
 
    public static Manager tsManager = new Manager();
+   public static HumanWorker tsHuman = new HumanWorker();
+   public static Robot tsRobot = new Robot();
+
 
    // The entry main() method
    public static void main(String[] args)
@@ -25,6 +28,16 @@ public class ThreeSolidMain
          main_except.printStackTrace();
       }
 
+      System.out.println(" Testing for HumanWorker class");
+      tsHuman.eat();
+      tsHuman.work();
+
+      System.out.println(" Testing class Robot working properly");
+      tsRobot.work();
+      tsRobot.processMaintainWeekly();
+      tsRobot.processMaintainMonthly();
+      tsRobot.processMaintainYearly();
+
             try
       {
          System.out.format("Stopping ... \n");
@@ -38,4 +51,3 @@ public class ThreeSolidMain
 
    }
  }
-
