@@ -32,7 +32,7 @@ public class ThreeSolidMain
       tsSuper.eat();
       tsSuper.work();
       System.out.println();
-      
+
       System.out.println(" Testing for HumanWorker class");
       tsHuman.eat();
       tsHuman.work();
@@ -48,6 +48,7 @@ public class ThreeSolidMain
       System.out.println("Testing Manager class");
       System.out.println("Manage Human...");
       tsManager.setWorker(tsHuman);
+      tsManager.manage();
       System.out.println("Manage SuperWorker...");
       tsManager.setWorker(tsSuper);
       tsManager.manage();
