@@ -38,7 +38,11 @@ public class ThreeSolidMain
       tsRobot.processMaintainMonthly();
       tsRobot.processMaintainYearly();
 
-            try
+      System.out.println(" Testing Manager class");
+      tsManager.setWorker(tsHuman);
+      tsManager.manage();
+
+      try
       {
          System.out.format("Stopping ... \n");
       }
