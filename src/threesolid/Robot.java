@@ -8,22 +8,23 @@ package threesolid;
  * Damen
  *
  * Ky_Le added implemanation "IMaintainable" class interface and its methods.
+ * adding some output to make sure class Robot working properly.
  */
 
 class Robot implements IWorkable, IMaintainable {
     public void work() {
-        // does work
+        System.out.println("I am a robot, i will only work, no lunch and break for me");
     }
 
     public void processMaintainWeekly(){
-      // performing robot maintaining weekly
+      System.out.println("I an a robot, i will need maintaince weekly");
     }
 
     public void processMaintainMonthly(){
-      // performing robot maintaining Monthly
+      System.out.println("I an a robot, i will need maintaince monthly");
     }
 
     public void processMaintainYearly(){
-      // performing robot maintaining yearly
+      System.out.println("I an a robot, i will need maintaince yearly");
     }
 }

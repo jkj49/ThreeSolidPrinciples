@@ -1,12 +1,12 @@
 package threesolid;
 
 class Manager {
-	IWorker worker;
+	HumanWorker worker;
 
 	public Manager() {
 
 	}
-	public void setWorker(IWorker w) {
+	public void setWorker(HumanWorker w) {
 		worker=w;
 	}
 

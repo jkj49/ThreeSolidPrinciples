@@ -1,5 +1,9 @@
 package threesolid;
 
+import java.io.*;
+import java.awt.*;
+import java.awt.event.*;
+
 /**
  * S - A human worker can work and eat.
  * O - Can be extended with more interfaces.
@@ -8,10 +12,10 @@ package threesolid;
  */
 class HumanWorker implements IFeedable, IWorkable {
     public void eat() {
-        // eat something
+        System.out.println(" Human workers will need time to eat");
     }
 
     public void work() {
-        // do work
+        System.out.println(" human worker will do some serious works");
     }
 }
