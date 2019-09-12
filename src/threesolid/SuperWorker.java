@@ -1,8 +1,11 @@
 package threesolid;
 
+import java.io.*;
+import java.awt.*;
+import java.awt.event.*;
 
 /**
- * S - A SuperWorker does work and eats.
+ * S - A SuperWorker does quick work and eats fast.
  * O - SuperWorker can be extended.
  * I - A SuperWorker eats and works, implementing IWorkable and IFeedable.
  * Jonathan Joiner
@@ -11,11 +14,11 @@ package threesolid;
 
 class SuperWorker implements IWorkable, IFeedable{
 	public void work() {
-		//.... working much more
+		System.out.println(" Super Workers complete work exponentially faster");
 	}
 
 	public void eat() {
-		//.... eating in launch break
+		System.out.println(" Super Workers consume 4X the food, 4X faster");
 	}
 }
 
