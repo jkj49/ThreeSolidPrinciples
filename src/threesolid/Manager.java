@@ -27,7 +27,7 @@ class Manager {
 	}
 
 	// Sets a worker to directly manage
-	public void setWorker(IWorkable worker) {
+	public void setWorker(IWorkable w) {
 		worker=w;
 	}
 
