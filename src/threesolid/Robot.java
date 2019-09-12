@@ -17,14 +17,14 @@ class Robot implements IWorkable, IMaintainable {
     }
 
     public void processMaintainWeekly(){
-      System.out.println("I an a robot, i will need maintaince weekly");
+      System.out.println("I am a robot, i will need maintaince weekly");
     }
 
     public void processMaintainMonthly(){
-      System.out.println("I an a robot, i will need maintaince monthly");
+      System.out.println("I am a robot, i will need maintaince monthly");
     }
 
     public void processMaintainYearly(){
-      System.out.println("I an a robot, i will need maintaince yearly");
+      System.out.println("I am a robot, i will need maintaince yearly");
     }
 }

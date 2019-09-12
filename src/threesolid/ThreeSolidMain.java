@@ -14,6 +14,7 @@ public class ThreeSolidMain
    public static HumanWorker tsHuman = new HumanWorker();
    public static Robot tsRobot = new Robot();
    public static SuperWorker tsSuper = new SuperWorker();
+   public static EQMWorker tsEQMWorker = new EQMWorker();
 
 
    // The entry main() method
@@ -32,10 +33,18 @@ public class ThreeSolidMain
       tsSuper.eat();
       tsSuper.work();
       System.out.println();
-      
+
       System.out.println(" Testing for HumanWorker class");
       tsHuman.eat();
       tsHuman.work();
+      System.out.println();
+
+      System.out.println("Testing EQMWorker class");
+      tsEQMWorker.work();
+      tsEQMWorker.eat();
+      tsEQMWorker.processMaintainWeekly();
+      tsEQMWorker.processMaintainMonthly();
+      tsEQMWorker.processMaintainYearly();
       System.out.println();
 
       System.out.println(" Testing class Robot working properly");
