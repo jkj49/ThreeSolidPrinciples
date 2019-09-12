@@ -1,7 +1,7 @@
 package threesolid;
 /*
 *
-* S - A Robot does work. It does not query the database, for example.
+* S - no
 * O - This class can be extended by allowing the implementation of other relevant interfaces.
 * I - this class implements IWorkable amd IMaintainable with different functionalities.
 *
