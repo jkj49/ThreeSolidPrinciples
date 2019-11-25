@@ -8,6 +8,7 @@ import java.awt.event.*;
  * S - A SuperWorker does quick work and eats fast.
  * O - SuperWorker can be extended.
  * I - A SuperWorker eats and works, implementing IWorkable and IFeedable.
+ * 
  * Jonathan Joiner
  *
  */
