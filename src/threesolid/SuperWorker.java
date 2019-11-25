@@ -9,6 +9,7 @@ import java.awt.event.*;
  * O - SuperWorker can be extended.
  * I - A SuperWorker eats and works, implementing IWorkable and IFeedable.
  * 
+ * Edited by:
  * Jonathan Joiner
  *
  */
